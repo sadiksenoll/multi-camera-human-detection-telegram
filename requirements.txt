@@ -1,4 +1,7 @@
-opencv-python
-numpy
-requests
-ultralytics
+opencv-python==4.8.1.78
+PyQt6==6.6.1
+ultralytics==8.0.206
+ultralyticsplus==0.0.5
+numpy==1.24.3
+torch>=2.0.0
+torchvision>=0.15.0
