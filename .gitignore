@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# secrets
+.env
+
+# local config with camera urls / regions
+camera_urls.json
+
+# model / cache
+yolov8*.pt
+*.pt
+
+# outputs / logs
+outputs/
+*.log
+*.db
+
+# media
+*.jpg
+*.png
+*.mp4
+*.avi
+
+# python cache
+__pycache__/
+*.pyc
